@@ -6,10 +6,10 @@ title   : "Dogpagnie"
 <div class="grid__container">
    <div class="grid__row">
    		<div class="grid__bp0-column-12"><div>
-       	<h1 class="titel">Breng honden en senioren in contact</h1>
-       	<h3 class="onderTitel">Laat uw hond gaan wandelen met onze senioren</h3>
-       	<button type="button" class="orange" action="dog.html"><span class="btnTekst">Ik doe mee</span></button>
-       	<img src="../assets/cityline.svg" width="100%" class="cityline">
+       	<h1 class="titel">Ik zoek een compagnie voor mijn hond</h1>
+       	<h3 class="onderTitel">schrijf je hond in voor een compagnie</h3>
+       	<button type="button" class="orange" action="dog.html"><span class="btnTekst">Schrijf mijn hond in</span></button>
+       	<img src="../assets/dogline.svg" width="100%" class="cityline">
 		</div></div>
 
 <div class="grid__bp0-column-12"><div>
