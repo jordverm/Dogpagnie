@@ -1,9 +1,32 @@
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>{{ page.title }} | {{ site.title }}</title>
-   <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="google-site-verification" content="{{ site.google-verification }}">
+  <link rel="shortcut icon" href="/assets/dog.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/dog.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/dog.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/dog.png">
+  <link rel="apple-touch-icon-precomposed" href="/assets/dog.png">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.min.css">
+  <!-- External JS-libraries: None at this moment -->
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+  <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}" />
+
+    <!-- prefetch dns -->
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+
+
+
+
 </head>
+<body>

@@ -2,13 +2,13 @@
 layout  : default
 title   : "Dogpagnie"
 ---
-<body class="grid__development">
+<div class="grid__development">
 <div class="grid__container">
    <div class="grid__row">
    		<div class="grid__bp0-column-12"><div>
        	<h1 class="titel">Breng honden en senioren in contact</h1>
        	<h3 class="onderTitel">Laat uw hond gaan wandelen met onze senioren</h3>
-       	<button type="button" class="orange" action="dog.html"><span class="btnTekst">Ik doe mee</span></button>
+       	<span class="orange"><a href="#doemee">Ik doe mee</a></span>
        	<img src="../assets/cityline.svg" width="100%" class="cityline">
 		</div></div>
 
@@ -21,7 +21,7 @@ Voor de gezonheid van de senior en dat van je hond
        	<h3 class="onderTitel">
 Breng je hond naar een van de vele seniorenvoorzieningen in Gent en laat hem rondwandelen met een vriendelijke senior
 		</h3>
-<div class="grid__bp2-column-4 grid__bp0-column-12"><div>
+<a name="doemee"><div class="grid__bp2-column-4 grid__bp0-column-12"><div>
 	<img src="../assets/dog.svg" class="imgHome">
   <h4 class="h4Titel"><a href="dog.html">Voor de baasje</a></h4>
 </div></div>
@@ -33,13 +33,13 @@ Breng je hond naar een van de vele seniorenvoorzieningen in Gent en laat hem ron
 </div></div>
 
 		</div></div>
-
+</a>
 
 
 
    </div>
 </div>
-</body>
+</div>
 
 
 <!-- Bottom scripts -->
